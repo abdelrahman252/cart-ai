@@ -44,19 +44,20 @@ const Cart = ({ cart, products, active }) => {
 };
 
 export default Cart;
-const CardC = styled(Card)({
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "space-between",
-  borderBottom: "2px solid purple",
-  margin: " 10px",
-  width: "300px",
-  height: "350px",
-});
-const Span = styled("span")({
-  fontSize: "35px",
-  fontWeight: "bold",
-  color: "#00838f",
-  width: "100%",
-  marginTop: "30px",
-});
+const CardC = styled(Card)`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid purple;
+  margin:  10px;
+  width: 300px;
+  height: 350px;
+ 
+`
+const Span = styled("span")`
+  font-size: 35px;
+  font-weight: bold;
+  color: #00838f;
+  width: 100%;
+  margin-top: 30px;
+`

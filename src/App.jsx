@@ -28,12 +28,15 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <>
+  
       <Div>
         <Image src={alan} alt="logo" />
       </Div>
-      <BeforeShow products={products} cart={cart} active={active} />
-    </div>
+      <div className="app">
+        <BeforeShow products={products} cart={cart} active={active} />
+      </div>
+    </>
   );
 }
 
