@@ -81,5 +81,5 @@ const InfoData = styled("div")({
   margin: "30px 10px",
   justifyContent: "center",
   alignItems: "center",
-  marginLeft: "30px"
+  marginLeft: "40px"
 });
