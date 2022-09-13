@@ -78,6 +78,8 @@ const CardC = styled("div")({
 const InfoData = styled("div")({
   display: "flex",
   flexWrap: "wrap",
-  margin: "20px 10px",
+  margin: "30px 10px",
   justifyContent: "center",
+  alignItems: "center",
+  marginLeft: "30px"
 });
